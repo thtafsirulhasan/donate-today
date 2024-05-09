@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.Header-Topbar{
+    background-image: url('../images/Banner.png');
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 660px;
+    max-width:100%;
+
+}
+.Header-Content{
+    padding:174px 360px;
+    margin: 0 auto;
+    text-align:center;
+}
+.Header-Content-Title{
+    color:#ffffff;
+    text-align: center;
+    font-size:50px;
+    font-weight: 700;
+    width:600px;
+    margin:20px auto
+}
+.Header-Content-Description{
+    width: 500px;
+    color:#ffffff;
+    font-size:18px;
+    text-align:center;
+    margin: 0 auto;
+}
+.Donate-Btn{
+    padding:16px 20px;
+    background-color:#FF5959;
+    border:0;
+    border-radius: 4px;
+    color:#ffffff;
+    font-size: 16px;
+    margin-top:20px
+}
