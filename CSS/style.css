@@ -167,3 +167,39 @@
     width: 280px;
     margin-top: 20px;
 }
+/* Donation Contribute  */
+.our-donation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.donation-details{
+    width: 450px;
+}
+.donation-details h2{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom:  10px;
+}
+.donationa-description-1{
+    font-size: 18px;
+    width: 400px;
+    color: #707070;
+
+}
+.donationa-description-2{
+    font-size: 18px;
+    width: 400px;
+    margin-top: 10px;
+    color: #707070;
+}
+.donation-image{
+    max-width: 480px;
+
+}
+.donation-image img{
+   width: 100%;
+}
