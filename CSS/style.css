@@ -1,43 +1,114 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.Header-Topbar{
+
+/*Header and Banner Section*/
+.Header-Topbar {
     background-image: url('../images/Banner.png');
     background-color: gray;
     background-blend-mode: multiply;
     background-size: cover;
     height: 660px;
-    max-width:100%;
+    max-width: 100%;
 
 }
-.Header-Content{
-    padding:174px 360px;
+
+.Header-Content {
+    padding: 174px 360px;
     margin: 0 auto;
-    text-align:center;
-}
-.Header-Content-Title{
-    color:#ffffff;
     text-align: center;
-    font-size:50px;
-    font-weight: 700;
-    width:600px;
-    margin:20px auto
 }
-.Header-Content-Description{
+
+.Header-Content-Title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    width: 600px;
+    margin: 20px auto
+}
+
+.Header-Content-Description {
     width: 500px;
-    color:#ffffff;
-    font-size:18px;
-    text-align:center;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
     margin: 0 auto;
 }
-.Donate-Btn{
-    padding:16px 20px;
-    background-color:#FF5959;
-    border:0;
+
+.Primary-Btn {
+    padding: 16px 20px;
+    background-color: #FF5959;
+    border: 0;
     border-radius: 4px;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 16px;
-    margin-top:20px
+    margin-top: 20px
 }
+
+/*Donate Today Section*/
+.Donate-Today-Section{
+    margin: 140px 335px 130px 335px;
+}
+
+.Donate-Title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Donate-Description {
+    text-align: center;
+    font-size: 18px;
+    padding:0 174px;
+    margin-top: 20px;
+    color:#707070
+}
+.Donate-Collection-Box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap:20px;
+    padding:0 120px
+}
+.collection-word-1, .collection-word-2, .collection-word-3{
+    background-color: #FAFAFA;
+    padding:40px 25px;
+    border-radius: 8px;
+
+}
+.collection-word-2{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.collection-word-4, .collection-word-5{
+    padding:40px 19px;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    
+}
+.taka, .taka2{
+    font-size: 24px;
+    font-weight: 700;
+    color:#707070;
+}
+.taka2{
+    color: #FF5959;
+}
+.others-amount{
+    margin:50px auto;
+    width:913px;
+    text-align: center;
+}
+.others-amount span{
+    font-size: 18px;
+    color:#B3B3B3;
+}
+.others-amount hr{
+     width: 670px;
+     margin: 10px auto;
+     color: #DADADA;
+}
+
