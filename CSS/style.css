@@ -203,3 +203,47 @@
 .donation-image img{
    width: 100%;
 }
+/* Get-My-Updates Syles */
+.Get-My-Updates{
+    width:800px;
+    margin: 50px auto;
+}
+.Updates-Title{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bolder;
+}
+.Updates-des{
+    text-align: center;
+    width: 400px;
+    margin:20px auto;
+}
+.Subscribe{
+    width: 416px;
+    margin:0 auto;
+
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    background-color: #D9D9D9;
+}
+.fotter{
+    background-color: #0B0D17;
+    padding:42px 0;
+    text-align: center;
+}
+.fotter h2{
+    font-size: 24px;
+    color: #FF5959;
+    font-weight: 800;
+}
+.fotter span{
+    font-size: 18px;
+    color:gray;
+}
