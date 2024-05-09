@@ -111,4 +111,59 @@
      margin: 10px auto;
      color: #DADADA;
 }
-
+/* Our Donate Plane */
+.Our-Donate-Plane{
+    padding:0 280px;
+}
+.Our-Donate-Plane h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.plane-description{
+    font-size: 18px;
+    text-align: center;
+    width: 500px;
+    margin:30px auto;
+    color: #707070;
+}
+.Donate-Plane-Box-All{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.Donate-Plane-Box-1{
+    padding:63px 22px 54px 23px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius:4px;
+}
+.Donate-Plane-Box-2{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius:4px;
+    padding:63px 22px 54px 23px;
+}
+.Donate-Plane-Box-3{
+    background-color: rgba(150, 156, 67, 0.1);
+    border-radius:4px;
+    padding:63px 22px 54px 23px;
+}
+.Donate-Plane-Box-1 img{
+    padding-bottom:31px;
+}
+.Donate-Plane-Box-2 img{
+    padding-bottom:31px;
+}
+.Donate-Plane-Box-3 img{
+    padding-bottom:31px;
+}
+.Donate-Plane-Box-1, .Donate-Plane-Box-2, .Donate-Plane-Box-3 h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.Donate-plan-Description{
+    font-size: 18px;
+    color:gray;
+    width: 280px;
+    margin-top: 20px;
+}
